@@ -690,7 +690,7 @@
         }
       }
       .contact{
-          background: wheat;
+          background:var(--lightgray);
       }
       .contact h1{
           color: var(--mainblack);
@@ -735,7 +735,7 @@
         padding: 10px;
         margin-bottom: 5px;
         border: none;
-        background: wheat;
+        background:var(--lightgray);
         border-bottom: 5px solid var(--mainblack);
       
       }
