@@ -690,15 +690,15 @@
         }
       }
       .contact{
-          background: var(--primarycolor);
+          background: wheat;
       }
       .contact h1{
           color: var(--mainblack);
       }
       .contact-underline{
-        width: 50px;
+        width: 300px;
         height: 8px;
-        background: var(--lightgray);
+        background: var(--mainblack);
         margin-left: 50px;
         transition: ease-in-out 2s;
     }
@@ -715,7 +715,7 @@
       .contact-info p{
           padding: 20px;
           font-size: 30px;
-          color: var(--lightgray);
+          color: var(--mainblack);
           justify-content: space-between;
       }
       .icon{
@@ -727,7 +727,7 @@
       .form{
           padding:20px;
           text-transform: uppercase;
-          color: var(--lightgray);
+          color: var(--mainblack);
           font-size: 25px;
       }
       input[type=text],input[type=email],textarea {
@@ -735,8 +735,8 @@
         padding: 10px;
         margin-bottom: 5px;
         border: none;
-        background: var(--primarycolor);
-        border-bottom: 5px solid var(--lightgray);
+        background: wheat;
+        border-bottom: 5px solid var(--mainblack);
       
       }
      
@@ -753,7 +753,7 @@
       }
       
       .contact-form a:hover {
-        color: #2b98f0;
+        color: var(--mainblack);
         background: #f5f5f5;
       }
       .contact-form .fa{
